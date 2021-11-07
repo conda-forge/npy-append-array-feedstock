@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/npy-append-array-{{ version }}.tar.gz
-  sha256: a826468d20a69653f12ed791553da8753ea3bae88a3b165722f8b069b2b86461
+  sha256: 9e1ff6845aa157950f68c06f808e9532d07c827a6773a939fd86ec319d58c0fd
 
 build:
   number: 0
