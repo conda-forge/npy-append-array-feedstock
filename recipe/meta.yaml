@@ -1,5 +1,5 @@
 {% set name = "npy-append-array" %}
-{% set version = "0.9.6" %}
+{% set version = "0.9.7" %}
 
 
 package:
@@ -37,6 +37,9 @@ about:
   license: MIT
   # License file manually packaged: See https://github.com/xor2k/npy-append-array/pull/1
   license_file: LICENSE
+  description: |
+    Create Numpy `.npy` files that are larger than the main memory by appending
+    on the zero axis.
 
 extra:
   recipe-maintainers:
