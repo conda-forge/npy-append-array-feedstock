@@ -1,5 +1,5 @@
 {% set name = "npy-append-array" %}
-{% set version = "0.9.9" %}
+{% set version = "0.9.10" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/npy-append-array-{{ version }}.tar.gz
-  sha256: 7391912f9218fe9ba87a0176708c174add39b54a6eebf1e40eac4da08a540a4e
+  sha256: b158e5c39cfa94cf360082cbb47dbcffbb454a48e03a0e4a66b60290513fb4a9
 
 build:
   number: 0
