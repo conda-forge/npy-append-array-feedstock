@@ -1,11 +1,11 @@
-About npy-append-array
-======================
+About npy-append-array-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/npy-append-array-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/xor2k/npy-append-array
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/npy-append-array-feedstock/blob/main/LICENSE.txt)
 
 Summary: Create Numpy `.npy` files that are larger than the main memory
 
