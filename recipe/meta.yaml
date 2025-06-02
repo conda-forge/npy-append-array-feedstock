@@ -1,5 +1,6 @@
 {% set name = "npy-append-array" %}
 {% set version = "0.9.18" %}
+{% set python_min = "3.9" %}
 
 
 package:
@@ -7,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/npy_append_array-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/npy_append_array-{{ version }}.tar.gz
   sha256: 658213e064ca89a9eff1cd7a70c480c4294cddc517744f7f6179f52a13a0b6e6
 
 build:
@@ -18,9 +19,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - setuptools
+    - python {{ python_min }}
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - numpy
 
 test:
@@ -29,6 +31,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
