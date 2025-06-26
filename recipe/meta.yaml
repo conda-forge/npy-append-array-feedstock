@@ -1,5 +1,5 @@
 {% set name = "npy-append-array" %}
-{% set version = "0.9.18" %}
+{% set version = "0.9.19" %}
 {% set python_min = "3.9" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/npy_append_array-{{ version }}.tar.gz
-  sha256: 658213e064ca89a9eff1cd7a70c480c4294cddc517744f7f6179f52a13a0b6e6
+  sha256: 7056e852cf597cca367d06b581068e99c18bb57499c524b4b2ffc7020f8f9477
 
 build:
   number: 0
